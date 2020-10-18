@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="style.css">
+        <title>survey form</title>
+    </head>
+    <body>
+        <div class="container">
+<form action="/my-handling-form-page" method="POST">
+<h1>Application for Permission  To ate My  Daughter</h1>
+<P><strong>Note:</strong>This form is to be complete at least 21 days
+     prior to the data</P>
+     <fieldset class="box">
+         <legend>Personal details</legend>
+         <ul>
+             <li>
+                 <label for="name">Name:</label>
+                 <input type="text" id="name" name="user_name">
+                </li>
+             <li>
+                 <label for="address">Address:</label>
+                 <input type="text" id="address" name="user_address">
+                </li>
+             <li>
+                 <label for="phone_number">Phone number:</label>
+                 <input type="number" id="number" name="user_number">
+                </li>
+             <li>
+                 <label for="mail">E-mail</label>
+                 <input type="email" id="mail" name="user_email">
+                </li>
+             <li>
+                 <label for="iq">IQ</label>
+                 <input type="text" id="iq" name="user_iq">
+                </li>
+             <li>
+                 <label for="gender">Gender</label><br>
+                 <input type="radio" id="gender" name="user_gender"
+                  value="male"checked>Male<br>
+                  <input type="radio" id="gender" name="user_gender"
+                  value="female">Female<br>
+                  <input type="radio" id="gender" name="user_gender"
+                  value="others">Others
+                </li>
+             <li>
+                 <label for="date">Date of Proposed dating:</label>
+                 <input type="date" id="data" name="user_date">
+                </li>
+         </ul>
+
+     </fieldset>
+     <fieldset class="box">
+         <label for="check"><b>Check all that applied</b></label>
+         <input type="checkbox" id="piercings" name="piercings" value="piercings">
+         I have tattoos and/or piercings<br>
+         <input type="checkbox" id="age" name="user_age" value="age">
+         I am more than 2 years older than my daughter<br>
+         <input type="checkbox" id="van" name="user_van">
+         I own a panel van or V8 ute<br>
+         <input type="checkbox" id="work" name="user_work" checked>
+         I work full-time<br>
+         <input type="checkbox" id="status" name="user_status" checked>
+         My parents are rich<br>
+         <input type="checkbox" id="venue" name="venue" checked>
+         Is the date at a well lit public location
+     </fieldset>
+
+     <fieldset class="box pol">
+        <label for="politics">Political Persuasion:</label>
+        <select name="politics" id="politics">
+            <option value="left_wing">Left wing</option>
+            <option value="right_wing">Right wing</option>
+            <option value="Conservative">Conservative</option>
+            <option value="nazi">Nazi</option>
+        </select>
+        <label for="politics">Educational level completed:</label>
+        <select name="edu" id="edu">
+            <option value="university">Unniversity</option>
+            <option value="collage">College</option>
+            <option value="high school">High school</option>
+            <option value="none">None</option>
+        </select>
+
+     </fieldset>
+     <fieldset class="box">
+         <legend>Eassy section</legend>
+<p>In less than 50 words or more explain why you want to date my daughter</p>
+<textarea id="msg" name="user_exp" placeholder="Enter you text here"
+rows="5" cols="60"></textarea><br>
+<label for="msg" name="user_msg">Please upload contact
+     details for 2 references</label><br>
+    <textarea id="ref" name="user_ref" placeholder="Enter your text here" rows="5" 
+    cols="60"></textarea>
+    <p>Upload Police Clearance Certificate, Bank Statement 
+        and Medical Certifiates here:<button id="btn-danger">Attach files</button></p>
+     </fieldset>
+     <button class="btn-danger">Send your Application</button>
+</form>
+</div>
+    </body>
+</html>
