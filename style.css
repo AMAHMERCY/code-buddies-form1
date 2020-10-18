@@ -68,6 +68,7 @@ margin-left: 24%;
 }
 @media(max-width:600px){
     form{
+        width: 530px;
         max-width: 100%;
     }
     .container{
